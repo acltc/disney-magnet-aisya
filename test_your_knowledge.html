@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>AnimalAntiCruelty</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+	<body>
+	<h1 id="title">Bringing Awareness To Animal Cruelty</h1>
+	<ul id="navbar">
+		<li> <a href="homepage.html">Home Page</a></li>
+		<li> <a href="animalcruelty.html">Animal Cruelty</a></li>
+		<li> <a href="stopping_it.html">Stopping It</a></li>
+		<li> <a href="laws.html">Laws</a></li>
+		<li> <a href="helpful_links.html">Helpful Links</a></li>
+		<li> <a href="test_your_knowledge.html">
+			Test Your Knowledge</a></li>
+		</ul>
+		<br><br><br><br>
+		<div id="quiz">
+			<h2 id="quiz">Test Your Knowledge</h2>
+			<p>(Click on the question to reveal the answer)</p>
+			<p id="question-one-question">
+				1. Which of the following is NOT a form of animal cruelty?</p>
+				<ul id="options">
+					<li>A. Puppymills</li>
+					<li>B. Dog Fighting</li>
+					<li>C. Cat Fighting</li>
+					<li>D. Animal Hoarding</li>
+				</ul>
+				<p id="question-one-solution">
+					C. Cat Fighting
+				</p>
+			</div>
+			<script type="text/javascript">
+			$("#question-one-question").click(function(){
+				$("#question-one-solution").show();
+			});
+
+			</script>
+			<p id="question-two-question">
+				2. Dehydration is a sign of animal cruelty.</p>
+				<ul id="options2">
+					<li>A. True</li>
+					<li>B. False</li>
+				</ul>
+				<p id="question-two-solution">
+					A. True
+				</p>
+			</div>
+			<script type="text/javascript">
+			$("#question-two-question").click(function(){
+				$("#question-two-solution").show();
+			});
+			</script>
+			<p id="question-three-question">
+				3. In Illinois a person can be charged with a felony for abusing an animal.</p>
+				<ul id="options3">
+					<li>A. True</li>
+					<li>B. False</li>
+				</ul>
+				<p id="question-three-solution">
+					A. True
+				</p>
+			</div>
+			<script type="text/javascript">
+			$("#question-three-question").click(function(){
+				$("#question-three-solution").show();
+			});
+			</script>
+	</body>
+</html>
